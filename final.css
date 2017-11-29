@@ -1,0 +1,44 @@
+#home article{
+    margin: 112px;
+    position: absolute;
+}
+
+#home figcaption{
+    float:right;
+}
+
+#home img{
+    max-width: 30%;
+    float: right;   
+}
+
+#home p{
+    margin: 3em;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 165px;
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ol li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    width: 15em;
+}
+
+.moreHello {
+    width: 60%;
+    float: left;
+}
