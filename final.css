@@ -16,6 +16,50 @@
     margin: 3em;
 }
 
+#intro article{
+    margin: 112px;
+    position: absolute;
+}
+
+#intro p{
+    margin: 3em;
+}
+
+#tutorial article{
+    margin: 112px;
+    position: absolute; 
+}
+
+#tutorial p{
+    margin: 3em;
+}
+
+#gallery article{
+    margin: 112px;
+    position: absolute;
+}
+
+#gallery figure{
+    margin: 3em;
+}
+
+#gallery img{
+    max-width: 30%;
+}
+
+#about article{
+    margin: 112px;
+    position: absolute;
+}
+
+#about p{
+    margin: 3em;
+}
+
+#about img{
+    max-width: 30%;
+}
+
 nav{
     position: fixed;
     top: 0px;
@@ -41,4 +85,17 @@ nav ol li{
 .moreHello {
     width: 60%;
     float: left;
+}
+
+.imageOne{
+    float: right;
+}
+
+.imageThree{
+    float: right;
+}
+
+.aboutImage{
+    display: block;
+    margin: 0 auto;
 }
