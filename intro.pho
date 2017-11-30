@@ -1,0 +1,41 @@
+<?php
+include 'top.php';
+?>
+<!-- ----------------------------------------------------------------------- -->
+<article class="introduction">
+    <p class="paragraph1">
+       ¡Hola! Yo soy Peter. Tengo 7 años  y vivo con mis padres en San 
+       Francisco. Estoy en el segundo grado. En los Estados Unidos lo llamamos 
+       escuela elemental. Yo amo ver dibujos animados y jugar videojuegos. Mis 
+       programas favoritos son Dora la Exploradora y Calle Sésamo. Me gustan
+       porque son divertidos y enseñan cosas nuevas. 
+    </p>
+    <p class="paragraph2">
+        Yo tengo un hermano y una hermana. Mi hermano tiene 17 años y está en 
+        el último año de la preparatoria. Él ama los deportes e ir a fiestas. 
+        Él nunca me lleva a fiestas pero algunas veces nos lleva a mi hermana y 
+        a mí a la playa. Mi hermana se llama Jane. Tiene 11 años. A ella le 
+        gusta leer y jugar fútbol. Lee uno o dos libros cada semana y ve todos 
+        los partidos de fútbol por televisión.  Ella se mete en problemas en la 
+        escuela todo el tiempo porque no hace sus tareas. Pretende poner 
+        atención en la clase pero lee sus libros debajo del escritorio. Mis 
+        padres algunas veces hacen que mi hermano le ayude con sus tareas. Muy 
+        a menudo, él simplemente hace las tareas de ella para poder salir con 
+        su novia.
+    </p>
+    <p class="paragraph3">
+        Yo también tengo una novia. Su nombre es Shenaaz. Ella se mudó con sus
+        padres del Líbano a San Francisco. Ella es muy linda. Habla francés y 
+        árabe y está aprendiendo inglés. Ella todavía no tiene sus libros, 
+        entonces nos sentamos juntos en la clase y yo comparto mis libros con 
+        ella. El fin de semana, ella viene a mi casa y ve películas con mi 
+        familia y yo. A sus padres les gusta que ella pase tiempo en nuestra 
+        casa porque puede aprender inglés con nosotros. En casa, ellos sólo 
+        hablan francés o árabe.
+    </p>
+</article>
+<?php
+    include('footer.php');
+?>
+    </body>
+</html>
