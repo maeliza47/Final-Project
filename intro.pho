@@ -33,9 +33,9 @@ include 'top.php';
         casa porque puede aprender inglés con nosotros. En casa, ellos sólo 
         hablan francés o árabe.
     </p>
+    <?php
+        include('footer.php');
+    ?>
 </article>
-<?php
-    include('footer.php');
-?>
     </body>
 </html>
