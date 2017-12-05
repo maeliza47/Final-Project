@@ -7,7 +7,7 @@ $path_parts = pathinfo($phpSelf);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Astrophotography for Dummies</title>
 
         <meta charset="utf-8">
         <meta name="author" content="Aaron M. Evans, Mary E. Foran">
@@ -73,9 +73,9 @@ $domain .= $server;
     
     <?php
     print '<body id="' . $path_parts['filename'] . '">';
-
-    include 'header.php';
-    include 'nav.php';
+    
+    include('header.php');
+    include ('nav.php');
 
     if($debug){
         print '<p>DEBUG MODE IS ON</p>';
