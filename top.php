@@ -15,7 +15,15 @@ $path_parts = pathinfo($phpSelf);
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="../finalProject/css/final.css" type="text/css" media="screen">
-
+        <style>
+		html { 
+			background: url(images/back.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style> 
         <?php
         $debug = false;
     
