@@ -1,36 +1,40 @@
 <?php
-include 'top.php';
+include('top.php');
 ?>
 <!-- ----------------------------------------------------------------------- -->
 <article class="about">
     <p class="aboutOne">
-        Andrés no se siente bien. Estuvo en una fiesta anoche y llegó a casa a 
-        las 3 am. Tiene dolor de cabeza y siente náusea. Bebió mucho y comió 
-        demasiados camarones. Él se levanta de la cama y se da cuenta que no 
-        tiene puesto el pantalón. Mira alrededor pero no lo puede encontrar. 
-        Va al baño y busca sus pastas. No las puede encontrar. Él escucha voces.
-        Sale del dormitorio, baja por las escaleras y entra a la cocina. Hay 
-        gente hablando y riéndose en la cocina. Él se pregunta quién más volvió 
-        a casa con él anoche. Luego se da cuenta de algo. Él no tiene escaleras 
-        en su apartamento. ¡Está en la casa de otra persona!
+        ImageJ is “an open source image processing program”. It is primarily 
+        used for designing scientific designs. ImageJ is meant for the 
+        scientific community, and has thousands of different plugins and 
+        scripts for the variety of different tasks that are being used by 
+        varying scientists.
     </p>
     <figure class="aboutFigure">
-        <img class="aboutImage" alt="" src="../finalProject/images/dandelion.jpg">
+        <img class="aboutImage" alt="" src="../finalProject/images/Image3.jpg">
     </figure>
     <p class="aboutTwo">
-       "Veo un traumatismo en la cabeza y moretones por todo este cuerpo. No 
-       hay herida de bala. Tome una fotografía de la mesa del comedor. Alguien 
-       más estaba aquí... comiendo un sándwich... y no era la víctima. El 
-       asesino se comió el sándwich ya sea antes o después de darle una paliza 
-       a la víctima, posiblemente hasta matarla. De cualquier manera, esto no 
-       es un asesinato al azar; esto fue personal. Empecemos a localizar a 
-       familiares y amigos de la víctima. Tenemos que hablar con cualquiera 
-       que lo conocía. Alguien tiene que saber algo. ¿Escribiste todo eso? 
-       Empecemos con los vecinos". 
+       ImageJ was developed by the National Institutes of Health for the 
+       worldwide community. Since it was developed to be open source, the 
+       source code will always be freely available, furthering the usefulness 
+       of the program to the varieties of developers. It was originally 
+       developed for Macintosh but now supports distributions for Windows, 
+       Mac OS, Mac OS X and Linux, as long as the machine has Java 1.4 or later.
+       The program is designed to be a useful tool in the image-processing 
+       process. “It can display, edit, analyze, process, save and print” images 
+       you need. It reads six plus different image formats and supports stacks
+       as well.
     </p>
-</article>
-<?php
+    <p class="aboutThree">
+       This is just scratching the surface of what ImageJ is capable of. ImageJ 
+       is meant for all different fields of science, and is built to be added 
+       onto and expanded for greater use. For more information on ImageJ and 
+       its uses, visit its website at: https://imagej.nih.gov/ij/index.html. 
+    </p>
+    <?php
     include('footer.php');
-?>
+    ?>
+</article>
     </body>
 </html>
+
