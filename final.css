@@ -1,3 +1,21 @@
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
 #home article{
     margin: 112px;
     position: absolute;
@@ -14,6 +32,11 @@
 
 #home p{
     margin: 3em;
+    color: WHITE;
+}
+
+#intro{
+    background-color: #11142D
 }
 
 #intro article{
@@ -23,6 +46,11 @@
 
 #intro p{
     margin: 3em;
+    color: WHITE;
+}
+
+#tutorial{
+    background-color: #11142D
 }
 
 #tutorial article{
@@ -32,6 +60,11 @@
 
 #tutorial p{
     margin: 3em;
+    color: WHITE;
+}
+
+#gallery{
+    background-color: #11142D
 }
 
 #gallery article{
@@ -44,7 +77,11 @@
 }
 
 #gallery img{
-    max-width: 30%;
+    max-width: 40%;
+}
+
+#about{
+    background-color: #11142D
 }
 
 #about article{
@@ -54,6 +91,7 @@
 
 #about p{
     margin: 3em;
+    color: WHITE;
 }
 
 #about img{
@@ -67,12 +105,13 @@ nav{
     min-width: 165px;
     padding: 10px;
     width: 100%;
-    background-color: #efefef;
+    background-color: #191F58;
     z-index: 10;
 }
 
 nav a{
     text-decoration: none;
+    color: WHITE;
 }
 
 nav ol li{
@@ -98,4 +137,48 @@ nav ol li{
 .aboutImage{
     display: block;
     margin: 0 auto;
+}
+
+#footer{
+    position: absolute;
+    float: left;
+    margin-top: 30em;
+    margin-left: 7em;
+}
+
+.thelist{
+    margin: 3em;
+    color: WHITE;
+}
+
+.unordered{
+    color: WHITE;
+}
+
+.helpme{
+    color: WHITE;
+}
+
+.welcome{
+    width: 50%;
+}
+
+.welcomeAbout{
+    width: 50%;
+}
+
+.welcomeForm{
+    width: 50%;
+}
+
+.welcomeGallery{
+    width: 50%;
+}
+
+.welcomeIntro{
+    width: 50%;
+}
+
+.welcomeTutorial{
+    width: 50%;
 }
